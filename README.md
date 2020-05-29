@@ -24,7 +24,7 @@ A aplicação deverá enviar a cada 30 segundos as informações atualizadas do 
 - Banco de imagens: https://unsplash.com/
 - URL da API de Ranking: https://crescercwi-ranking-service.herokuapp.com/
 ```javascript
-// Payload post
+// Payload post: https://crescercwi-ranking-service.herokuapp.com/
 {
 	"idJogo": number,
 	"nomeJogador": string,
@@ -33,3 +33,5 @@ A aplicação deverá enviar a cada 30 segundos as informações atualizadas do 
 	"timestamp": number
 }
 ```
+GET: https://crescercwi-ranking-service.herokuapp.com/:idJogo
+GET: https://crescercwi-ranking-service.herokuapp.com/:idJogo/:guid
