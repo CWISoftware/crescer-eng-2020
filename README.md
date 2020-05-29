@@ -21,5 +21,15 @@ A aplicação deverá enviar a cada 30 segundos as informações atualizadas do 
 ## Material de apoio
 
 - Músicas gratuítas: https://github.com/tannerhelland/free-music
-- URL da API de Ranking: http://localhost
 - Banco de imagens: https://unsplash.com/
+- URL da API de Ranking: https://crescercwi-ranking-service.herokuapp.com/
+```javascript
+// Payload post
+{
+	"idJogo": number,
+	"nomeJogador": string,
+	"palavra": string,
+	"tentativas": number,
+	"timestamp": number
+}
+```
